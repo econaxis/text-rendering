@@ -1,0 +1,21 @@
+[package]
+name = "twodr"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+freetype-rs = "*"
+wgpu = "*"
+log = "*"
+winit = {version = "0.26.0", default-features = false, features = ["wayland", "wayland-client", "wayland-protocols", "wayland-dlopen"]}
+bytemuck = "*"
+pollster = "*"
+image = "*"
+lazy_static = "*"
+env_logger = "*"
+slotmap = { version = "*"}
+
+[profile.release]
+debug = true
