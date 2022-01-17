@@ -15,4 +15,4 @@ does not change.
 
 When debugging, I often wanted two, scrollable views to `stdout` that I could cross-reference. Having to scroll up/down large amounts of text was inconvenient and mentally overwhelming. 
 
-This is a first-attempt solution to part of that problem -- text rendering. The side-by-side textbox shows what my intended solution would be.
+This is a first-attempt solution to part of that problem -- text rendering. The side-by-side scrollable text views shows what my intended solution would be.
