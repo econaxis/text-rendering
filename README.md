@@ -10,3 +10,9 @@ display are deconstructed into rectangles and texture coordinates. These rectang
 There is absolutely no optimization done here. That means all data is sent to the GPU on each frame, even if the text
 does not change. 
 
+
+# Motivation
+
+When debugging, I often wanted two, scrollable views to `stdout` that I could cross-reference. Having to scroll up/down large amounts of text was inconvenient and mentally overwhelming. 
+
+This is a first-attempt solution to part of that problem -- text rendering. The side-by-side textbox shows what my intended solution would be.
